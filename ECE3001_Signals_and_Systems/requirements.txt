@@ -1,0 +1,8 @@
+ipykernel
+librosa
+matplotlib
+numpy
+soundfile
+torch
+torchvision
+tqdm

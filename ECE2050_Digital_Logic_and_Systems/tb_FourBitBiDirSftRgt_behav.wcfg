@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_FourBitBiDirSftRgt_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_FourBitBiDirSftRgt" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1000000001fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/tb_FourBitBiDirSftRgt/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FourBitBiDirSftRgt/DataIn" type="logic">
+      <obj_property name="ElementShortName">DataIn</obj_property>
+      <obj_property name="ObjectShortName">DataIn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FourBitBiDirSftRgt/R_Lbar" type="logic">
+      <obj_property name="ElementShortName">R_Lbar</obj_property>
+      <obj_property name="ObjectShortName">R_Lbar</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FourBitBiDirSftRgt/Q0" type="logic">
+      <obj_property name="ElementShortName">Q0</obj_property>
+      <obj_property name="ObjectShortName">Q0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FourBitBiDirSftRgt/Q1" type="logic">
+      <obj_property name="ElementShortName">Q1</obj_property>
+      <obj_property name="ObjectShortName">Q1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FourBitBiDirSftRgt/Q2" type="logic">
+      <obj_property name="ElementShortName">Q2</obj_property>
+      <obj_property name="ObjectShortName">Q2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FourBitBiDirSftRgt/Q3" type="logic">
+      <obj_property name="ElementShortName">Q3</obj_property>
+      <obj_property name="ObjectShortName">Q3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FourBitBiDirSftRgt/TbClock" type="logic">
+      <obj_property name="ElementShortName">TbClock</obj_property>
+      <obj_property name="ObjectShortName">TbClock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FourBitBiDirSftRgt/TbSimEnded" type="logic">
+      <obj_property name="ElementShortName">TbSimEnded</obj_property>
+      <obj_property name="ObjectShortName">TbSimEnded</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FourBitBiDirSftRgt/TbPeriod" type="other">
+      <obj_property name="ElementShortName">TbPeriod</obj_property>
+      <obj_property name="ObjectShortName">TbPeriod</obj_property>
+   </wvobject>
+</wave_config>

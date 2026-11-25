@@ -1,0 +1,47 @@
+I used random strings of length 10 and tested the following input sizes:
+N = 1000, 2000, 5000, 10000, 20000, 50000.
+
+Results:
+N = 1000
+ULLMap: 0.00 sec
+BSTMap: 0.00 sec
+TreeMap: 0.00 sec
+HashMap: 0.00 sec
+
+N = 2000
+ULLMap: 0.01 sec
+BSTMap: 0.00 sec
+TreeMap: 0.00 sec
+HashMap: 0.00 sec
+
+N = 5000
+ULLMap: 0.04 sec
+BSTMap: 0.00 sec
+TreeMap: 0.00 sec
+HashMap: 0.00 sec
+
+N = 10000
+ULLMap: 0.13 sec
+BSTMap: 0.00 sec
+TreeMap: 0.00 sec
+HashMap: 0.00 sec
+
+N = 20000
+ULLMap: 0.67 sec
+BSTMap: 0.01 sec
+TreeMap: 0.01 sec
+HashMap: 0.00 sec
+
+N = 50000
+ULLMap: --Stack Overflow -- couldn't add 50000 strings of length 10.
+BSTMap: 0.02 sec
+TreeMap: 0.02 sec
+HashMap: 0.01 sec
+
+Observations:
+ULLMap was the slowest and its runtime increased very quickly as N grew.
+BSTMap was much faster than ULLMap.
+TreeMap had similar performance as BSTMap.
+HashMap was the fastest.
+This matches the expected asymptotic behavior: ULLMap is linear-time for search,
+BSTMap and TreeMap are approximately logarithmic on average, and HashMap is constant-time on average.

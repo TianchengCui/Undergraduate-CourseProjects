@@ -1,0 +1,20 @@
+{
+  "images": [
+    "kodim01.png",
+    "kodim03.png",
+    "kodim05.png",
+    "kodim13.png",
+    "kodim15.png",
+    "kodim23.png"
+  ],
+  "noise_list": [
+    0.0,
+    0.01,
+    0.03,
+    0.05
+  ],
+  "fixed_K": 0.005,
+  "adaptive_alpha": 1.0,
+  "rng_seed": 0,
+  "conditions": 144
+}
